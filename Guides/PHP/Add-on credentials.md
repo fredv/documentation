@@ -80,8 +80,8 @@ $db_config = array(
 );
 ~~~
 
-[env-vars]: https://www.cloudcontrol.com/dev-center/platform%20documentation#environment-variables
-[Add-on credentials]: https://www.cloudcontrol.com/dev-center/platform%20documentation#add-on-credentials
+[env-vars]: https://www.cloudcontrol.com/dev-center/platform-documentation#environment-variables
+[Add-on credentials]: https://www.cloudcontrol.com/dev-center/platform-documentation#add-on-credentials
 [Add-on Marketplace]: https://www.cloudcontrol.com/add-ons/
 [MySQL Dedicated Add-on]: https://www.cloudcontrol.com/add-ons/mysqld
 [MySQL Shared Add-on]: https://www.cloudcontrol.com/add-ons/mysqls

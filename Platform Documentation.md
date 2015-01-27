@@ -435,7 +435,7 @@ the credentials file.
 Set the variable `SET_ENV_VARS` using the [Custom Config Add-on] to either `false` or `true` to explicitly enable or disable
 this feature.
 
-The guides section has detailed examples about how to get the credentials in different languages ([Ruby](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on%20credentials), [Python](https://www.cloudcontrol.com/dev-center/guides/python/add-on%20credentials), [Node.js](https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on%20credentials), [Java](https://www.cloudcontrol.com/dev-center/guides/java/add-on%20credentials), [PHP](https://www.cloudcontrol.com/dev-center/guides/php/add-on%20credentials)).
+The guides section has detailed examples about how to get the credentials in different languages ([Ruby](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on-credentials), [Python](https://www.cloudcontrol.com/dev-center/guides/python/add-on-credentials), [Node.js](https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials), [Java](https://www.cloudcontrol.com/dev-center/guides/java/add-on-credentials), [PHP](https://www.cloudcontrol.com/dev-center/guides/php/add-on-credentials)).
 To see the format and contents of the credentials file locally, use the `addon.creds` command.
 
 ~~~
@@ -588,7 +588,7 @@ SSL support for custom domains is available through the
 [SSL add-on](https://www.cloudcontrol.com/add-ons/ssl).
 
 Instructions on how to add HTTPS redirects to your application can be
-found in the [SSL add-on documentation](https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment/ssl#https-redirects).
+found in the [SSL add-on documentation](https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/ssl#https-redirects).
 
 ### Elastic Addresses
 
@@ -854,7 +854,7 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 ~~~
 
 [generating SSH keys]: https://help.github.com/articles/generating-ssh-keys
-[Custom Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment/custom%20config
+[Custom Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/custom-config
 [web console]: https://www.cloudcontrol.com/console
 [API libraries]: https://github.com/cloudControl
 [the latest version]: https://www.cloudcontrol.com/download/win
@@ -866,19 +866,19 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 [guides]: https://www.cloudcontrol.com/dev-center/guides
 [MongoLab Add-on]: https://www.cloudcontrol.com/add-ons/mongolab
 [Add-on marketplace]: https://www.cloudcontrol.com/add-ons
-[Deployment category]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment
+[Deployment category]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment
 [rsyslog]: http://www.rsyslog.com/
 [TLS]: http://en.wikipedia.org/wiki/Transport_Layer_Security
 [Alias Add-on]: https://www.cloudcontrol.com/add-ons/alias
-[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/performance%20&%20monitoring/blitz.io
+[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on-documentation/performance-monitoring/blitz.io
 [MemCachier Add-on]: https://www.cloudcontrol.com/add-ons/memcachier
 [Varnish]: https://www.varnish-cache.org/
-[MemCachier Documentation]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/data%20storage/memcachier
-[New Relic Add-ons]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/performance%20&%20monitoring/new%20relic
+[MemCachier Documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/memcachier
+[New Relic Add-ons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/performance-monitoring/new-relic
 [tutorial]: https://www.cloudcontrol.com/blog/best-practice-running-and-analyzing-load-tests-on-your-cloudcontrol-app
 [Cron Add-on]: https://www.cloudcontrol.com/add-ons/cron
-[Cron Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment/cron
+[Cron Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/cron
 [Worker Add-on]: https://www.cloudcontrol.com/add-ons/worker
-[Worker Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/data%20processing/worker
+[Worker Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-processing/worker
 [Ubuntu 10.04 LTS Lucid Lynx]: http://releases.ubuntu.com/lucid/
 [Ubuntu 12.04 LTS Precise Pangolin]: http://releases.ubuntu.com/precise/

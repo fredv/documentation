@@ -18,7 +18,7 @@ Once the add-on has been provisioned the `PHRASE_AUTH_TOKEN` will be available w
 
 ## Installation and Usage
 
-phrase should be integrated in an own staging environment. If you haven't done so already, we recommend you set up a staging environment as explained in the [CloudControl Documentation](https://www.cloudcontrol.com/dev-center/platform%20documentation#development-staging-and-production-environments). The staging environment will be the place for your translators to edit your website content.
+phrase should be integrated in an own staging environment. If you haven't done so already, we recommend you set up a staging environment as explained in the [CloudControl Documentation](https://www.cloudcontrol.com/dev-center/platform-documentation#development-staging-and-production-environments). The staging environment will be the place for your translators to edit your website content.
 Of course, you can use your local development environment for integration as well. If you decide to do so, simply replace the staging with your development environment in the following steps.
 
 If you have any questions, contact us at [info@phraseapp.com](info@phraseapp.com) and we will be happy to guide you through the installation process.

@@ -138,5 +138,5 @@ Good luck building your apps using Node.js and cloudControl.
 [npm]: https://npmjs.org/
 [cloudControl]: http://www.cloudcontrol.com
 [Node.js buildpack]: https://github.com/cloudControl/buildpack-nodejs
-[Procfile]: https://www.cloudcontrol.com/dev-center/platform%20documentation#buildpacks-and-the-procfile
-[platform documentation]: https://www.cloudcontrol.com/dev-center/platform%20documentation
+[Procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
+[platform documentation]: https://www.cloudcontrol.com/dev-center/platform-documentation

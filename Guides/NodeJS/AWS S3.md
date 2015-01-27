@@ -94,4 +94,4 @@ You can build rich Node.js apps using more advanced S3 operations. To learn more
 [npm package manager]: https://npmjs.org/
 [Amazon Guide]: http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-intro.html
 [AWS access credentials]: http://aws.amazon.com/security-credentials
-[Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment/custom%20config
+[Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/custom-config

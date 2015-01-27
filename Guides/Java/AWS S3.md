@@ -26,7 +26,7 @@ Follow the [Amazon Guide](http://docs.aws.amazon.com/AWSSdkDocsJava/latest/Devel
 
 ## Example usage:
 
-The recommended way to provide your AWS credentials to your app is via environment variables. To do this, use the [Config Add-on](https://www.cloudcontrol.com/dev-center/add-on%20documentation/deployment/custom%20config):
+The recommended way to provide your AWS credentials to your app is via environment variables. To do this, use the [Config Add-on](https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/custom-config):
 
 ~~~bash
 $ cctrlapp APP_NAME/default config.add AWS_SECRET_KEY=[YOUR_SECRET_KEY] AWS_ACCESS_KEY=[YOUR_ACCESS_KEY]

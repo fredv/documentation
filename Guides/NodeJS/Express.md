@@ -157,9 +157,9 @@ applications.
 [npm]: https://npmjs.org/
 [cloudControl]: http://www.cloudcontrol.com
 [Node.js buildpack]: https://github.com/cloudControl/buildpack-nodejs
-[get-conf]: https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on%20credentials
-[Procfile]: https://www.cloudcontrol.com/dev-center/platform%20documentation#buildpacks-and-the-procfile
-[platform documentation]: https://www.cloudcontrol.com/dev-center/platform%20documentation
+[get-conf]: https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials
+[Procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
+[platform documentation]: https://www.cloudcontrol.com/dev-center/platform-documentation
 [Data Storage]: https://www.cloudcontrol.com/add-ons?c=1
 [MongoLab]: https://www.cloudcontrol.com/add-ons/mongolab
 [MongoSoup]: https://www.cloudcontrol.com/add-ons/mongosoup
