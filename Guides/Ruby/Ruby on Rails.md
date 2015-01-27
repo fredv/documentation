@@ -193,7 +193,7 @@ other [ruby-specific documents][ruby-guides].
 [Procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
 [filesystem]: https://www.cloudcontrol.com/dev-center/platform-documentation#non-persistent-filesystem
 [data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/
-[postgres-addon]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/elephantsql
+[postgres-addon]: https://www.cloudcontrol.com/dev-center/add-on-documentation/elephantsql
 [run command]: https://www.cloudcontrol.com/dev-center/guides/ruby/runcommand
 [rails-notes]: https://www.cloudcontrol.com/dev-center/guides/ruby/railsnotes
 [ruby-guides]: https://www.cloudcontrol.com/dev-center/guides/ruby

@@ -588,7 +588,7 @@ SSL support for custom domains is available through the
 [SSL add-on](https://www.cloudcontrol.com/add-ons/ssl).
 
 Instructions on how to add HTTPS redirects to your application can be
-found in the [SSL add-on documentation](https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/ssl#https-redirects).
+found in the [SSL add-on documentation](https://www.cloudcontrol.com/dev-center/add-on-documentation/ssl#https-redirects).
 
 ### Elastic Addresses
 
@@ -854,7 +854,7 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 ~~~
 
 [generating SSH keys]: https://help.github.com/articles/generating-ssh-keys
-[Custom Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/custom-config
+[Custom Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/custom-config
 [web console]: https://www.cloudcontrol.com/console
 [API libraries]: https://github.com/cloudControl
 [the latest version]: https://www.cloudcontrol.com/download/win
@@ -870,15 +870,15 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 [rsyslog]: http://www.rsyslog.com/
 [TLS]: http://en.wikipedia.org/wiki/Transport_Layer_Security
 [Alias Add-on]: https://www.cloudcontrol.com/add-ons/alias
-[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on-documentation/performance-monitoring/blitz.io
+[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on-documentation/blitz.io
 [MemCachier Add-on]: https://www.cloudcontrol.com/add-ons/memcachier
 [Varnish]: https://www.varnish-cache.org/
-[MemCachier Documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/memcachier
-[New Relic Add-ons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/performance-monitoring/new-relic
+[MemCachier Documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/memcachier
+[New Relic Add-ons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/new-relic
 [tutorial]: https://www.cloudcontrol.com/blog/best-practice-running-and-analyzing-load-tests-on-your-cloudcontrol-app
 [Cron Add-on]: https://www.cloudcontrol.com/add-ons/cron
-[Cron Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment/cron
+[Cron Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/cron
 [Worker Add-on]: https://www.cloudcontrol.com/add-ons/worker
-[Worker Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-processing/worker
+[Worker Add-on documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/worker
 [Ubuntu 10.04 LTS Lucid Lynx]: http://releases.ubuntu.com/lucid/
 [Ubuntu 12.04 LTS Precise Pangolin]: http://releases.ubuntu.com/precise/

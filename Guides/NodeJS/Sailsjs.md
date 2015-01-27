@@ -153,4 +153,4 @@ Congratulations, you can now see your Sails.js application running at
 [get the MySQL credentials]: https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials
 [websockets]: http://socket.io/
 [cloudControl websockets documentation]: https://www.cloudcontrol.com/dev-center/platform-documentation#websockets
-[Shared MySQL Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/mysqls
+[Shared MySQL Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/mysqls
