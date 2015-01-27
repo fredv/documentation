@@ -190,11 +190,11 @@ other [ruby-specific documents][ruby-guides].
 [ruby buildpack]: https://github.com/cloudControl/buildpack-ruby
 [Rails tutorial]: http://ruby.railstutorial.org/
 [Bundler]: http://bundler.io/
-[Procfile]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#buildpacks-and-the-procfile
-[filesystem]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#non-persistent-filesystem
-[data-storage-addons]: https://www.cloudcontrol.com/dev-center/Add-on%20Documentation/Data%20Storage/
-[postgres-addon]: https://www.cloudcontrol.com/dev-center/Add-on%20Documentation/Data%20Storage/ElephantSQL
-[run command]: https://www.cloudcontrol.com/dev-center/Guides/Ruby/RunCommand
-[rails-notes]: https://www.cloudcontrol.com/dev-center/Guides/Ruby/RailsNotes
-[ruby-guides]: https://www.cloudcontrol.com/dev-center/Guides/Ruby
+[Procfile]: https://www.cloudcontrol.com/dev-center/platform%20documentation#buildpacks-and-the-procfile
+[filesystem]: https://www.cloudcontrol.com/dev-center/platform%20documentation#non-persistent-filesystem
+[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/data%20storage/
+[postgres-addon]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/data%20storage/elephantsql
+[run command]: https://www.cloudcontrol.com/dev-center/guides/ruby/runcommand
+[rails-notes]: https://www.cloudcontrol.com/dev-center/guides/ruby/railsnotes
+[ruby-guides]: https://www.cloudcontrol.com/dev-center/guides/ruby
 [gem itself]: http://rubygems.org/gems/cloudcontrol-rails

@@ -25,12 +25,12 @@ To use a database, you should choose an Add-on from [the Data Storage category][
 ## Email
 You can't use a local SMTP server, instead choose one of our [email Add-ons][messaging-addons].
 
-[SSH-session]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#secure-shell-ssh
+[SSH-session]: https://www.cloudcontrol.com/dev-center/platform%20documentation#secure-shell-ssh
 [python buildpack]: https://github.com/cloudControl/buildpack-python
 [pip]: http://www.pip-installer.org/
-[procfile]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#buildpacks-and-the-procfile
-[messaging-addons]: https://www.cloudcontrol.com/dev-center/Add-on%20Documentation/Messaging%20&%20Mobile/
-[data-storage-addons]: https://www.cloudcontrol.com/dev-center/Add-on%20Documentation/Data%20Storage/
-[add-on-credentials]: https://www.cloudcontrol.com/dev-center/Guides/Python/Add-on%20credentials
+[procfile]: https://www.cloudcontrol.com/dev-center/platform%20documentation#buildpacks-and-the-procfile
+[messaging-addons]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/messaging%20&%20mobile/
+[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on%20documentation/data%20storage/
+[add-on-credentials]: https://www.cloudcontrol.com/dev-center/guides/python/add-on%20credentials
 [cloudControl]: https://www.cloudcontrol.com/
-[worker]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#scheduled-jobs-and-background-workers
+[worker]: https://www.cloudcontrol.com/dev-center/platform%20documentation#scheduled-jobs-and-background-workers

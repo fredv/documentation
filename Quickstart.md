@@ -123,4 +123,4 @@ Grab [our cheatsheet (PDF)](https://www.cloudcontrol.com/dev-center/cctrl_cheats
 
 ## Documentation
 
-To learn more about all the platform features and how to integrate it seamlessly into the development life cycle please refer to the extensive [platform documentation](https://www.cloudcontrol.com/dev-center/Platform%20Documentation).
+To learn more about all the platform features and how to integrate it seamlessly into the development life cycle please refer to the extensive [platform documentation](https://www.cloudcontrol.com/dev-center/platform%20documentation).
