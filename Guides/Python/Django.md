@@ -163,21 +163,21 @@ other [python-specific documents][python-guides].
 [django]: https://www.djangoproject.com/
 [cloudControl]: http://www.cloudcontrol.com
 [cloudControl-doc-user]: https://www.cloudcontrol.com/dev-center/platform-documentation#user-accounts
-[cloudControl-doc-cmdline]: https://www.cloudcontrol.com/dev-center/platform-documentation#command-line-client-web-console-and-api
+[cloudControl-doc-cmdline]: https://www.cloudcontrol.com/dev-center/platform-documentation#platform-access
 [Procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
 [git]: https://help.github.com/articles/set-up-git
 [filesystem]: https://www.cloudcontrol.com/dev-center/platform-documentation#non-persistent-filesystem
-[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/
+[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation#data-storage
 [mysqls]: https://www.cloudcontrol.com/dev-center/add-on-documentation/mysqls
 [example-app]: https://github.com/cloudControl/python-django-example-app
 [django-notes]: https://www.cloudcontrol.com/dev-center/guides/python/django-notes
 [get-conf]: https://www.cloudcontrol.com/dev-center/guides/python/add-on-credentials
 [Django tutorial]: https://docs.djangoproject.com/en/1.4/intro/tutorial01/
-[python-guides]: https://www.cloudcontrol.com/dev-center/guides/python
+[python-guides]: https://next.cloudcontrol.com/dev-center/guides#python
 [python buildpack]: https://github.com/cloudControl/buildpack-python
 [pip]: http://www.pip-installer.org/
 [gunicorn]: http://gunicorn.org/
 [worker]: https://www.cloudcontrol.com/dev-center/platform-documentation#scheduled-jobs-and-background-workers
 [db-commit]: https://github.com/cloudControl/python-django-example-app/commit/983f45e46ce0707476cec167ea062e19adcb53c9
-[ssh-session]: https://www.cloudcontrol.com/dev-center/platform-documentation#secure-shell-ssh
+[ssh-session]: https://www.cloudcontrol.com/dev-center/platform-documentation#secure-shell-(ssh)
 [mysql-driver]: https://pypi.python.org/pypi/MySQL-python/1.2.5

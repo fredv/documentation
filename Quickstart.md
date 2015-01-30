@@ -25,7 +25,7 @@ $ sudo easy_install pip
 $ sudo pip install cctrl
 ~~~
 
-**Windows:** Please download the provided [installer](http://download.cloudcontrolled.com/windows).
+**Windows:** Please download the provided [installer](https://download.cloudcontrolled.com/windows).
 
 ## Create a User Account (if you haven't already)
 

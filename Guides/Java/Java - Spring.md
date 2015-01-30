@@ -147,9 +147,9 @@ Et voila, the app is now up and running at `http[s]://APP_NAME.cloudcontrolled.c
 
 
 [Spring Roo petclinic]: http://static.springsource.org/spring-roo/reference/html/intro.html#intro-exploring-sample
-[Database credentials]: Add-on-credentials
+[Database credentials]: https://www.cloudcontrol.com/dev-center/guides/java/add-on-credentials-3
 [Jetty Runner]: http://wiki.eclipse.org/Jetty/Howto/Using_Jetty_Runner
 [cloudControl]: /
-[file system]: ../../Platform-Documentation#non-persistent-filesystem
-[log command]: ../../Platform-Documentation#logging
-[Shared MySQL Add-on]: ../../Add-on-Documentation/Data-Storage/MySQLs
+[file system]: https://www.cloudcontrol.com/dev-center/platform-documentation#non-persistent-filesystem
+[log command]: https://www.cloudcontrol.com/dev-center/platform-documentation#logging
+[Shared MySQL Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/mysqls

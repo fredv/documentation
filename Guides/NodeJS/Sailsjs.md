@@ -150,7 +150,7 @@ Congratulations, you can now see your Sails.js application running at
 [npm]: https://npmjs.org/
 [cloudControl]: http://www.cloudcontrol.com
 [Procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
-[get the MySQL credentials]: https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials
+[get the MySQL credentials]: https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials-1
 [websockets]: http://socket.io/
 [cloudControl websockets documentation]: https://www.cloudcontrol.com/dev-center/platform-documentation#websockets
 [Shared MySQL Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/mysqls

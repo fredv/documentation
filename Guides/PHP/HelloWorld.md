@@ -114,7 +114,7 @@ Congratulations, you can now see your Silex app running at `http[s]://APP_NAME.c
 [silex]: http://silex.sensiolabs.org/
 [cloudControl]: http://www.cloudcontrol.com
 [cloudControl-doc-user]: https://www.cloudcontrol.com/dev-center/platform-documentation#user-accounts
-[cloudControl-doc-cmdline]: https://www.cloudcontrol.com/dev-center/platform-documentation#command-line-client-web-console-and-api "documentation of the cloudControl-command-line-client"
+[cloudControl-doc-cmdline]: https://www.cloudcontrol.com/dev-center/platform-documentation#platform-access
 [php buildpack]: https://github.com/cloudControl/buildpack-php
 [procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
 [git]: https://help.github.com/articles/set-up-git

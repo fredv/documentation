@@ -25,12 +25,12 @@ To use a database, you should choose an Add-on from [the Data Storage category][
 ## Email
 You can't use a local SMTP server, instead choose one of our [email Add-ons][messaging-addons].
 
-[SSH-session]: https://www.cloudcontrol.com/dev-center/platform-documentation#secure-shell-ssh
+[SSH-session]: https://www.cloudcontrol.com/dev-center/platform-documentation#secure-shell-(ssh)
 [python buildpack]: https://github.com/cloudControl/buildpack-python
 [pip]: http://www.pip-installer.org/
 [procfile]: https://www.cloudcontrol.com/dev-center/platform-documentation#buildpacks-and-the-procfile
-[messaging-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/messaging-mobile/
-[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation/data-storage/
+[messaging-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation#messaging-mobile
+[data-storage-addons]: https://www.cloudcontrol.com/dev-center/add-on-documentation#data-storage
 [add-on-credentials]: https://www.cloudcontrol.com/dev-center/guides/python/add-on-credentials
 [cloudControl]: https://www.cloudcontrol.com/
 [worker]: https://www.cloudcontrol.com/dev-center/platform-documentation#scheduled-jobs-and-background-workers

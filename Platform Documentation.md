@@ -435,7 +435,7 @@ the credentials file.
 Set the variable `SET_ENV_VARS` using the [Custom Config Add-on] to either `false` or `true` to explicitly enable or disable
 this feature.
 
-The guides section has detailed examples about how to get the credentials in different languages ([Ruby](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on-credentials), [Python](https://www.cloudcontrol.com/dev-center/guides/python/add-on-credentials), [Node.js](https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials), [Java](https://www.cloudcontrol.com/dev-center/guides/java/add-on-credentials), [PHP](https://www.cloudcontrol.com/dev-center/guides/php/add-on-credentials)).
+The guides section has detailed examples about how to get the credentials in different languages ([Ruby](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on-credentials-2), [Python](https://www.cloudcontrol.com/dev-center/guides/python/add-on-credentials), [Node.js](https://www.cloudcontrol.com/dev-center/guides/nodejs/add-on-credentials-1), [Java](https://www.cloudcontrol.com/dev-center/guides/java/add-on-credentials-3), [PHP](https://www.cloudcontrol.com/dev-center/guides/php/add-on-credentials-4)).
 To see the format and contents of the credentials file locally, use the `addon.creds` command.
 
 ~~~
@@ -857,7 +857,7 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 [Custom Config Add-on]: https://www.cloudcontrol.com/dev-center/add-on-documentation/custom-config
 [web console]: https://www.cloudcontrol.com/console
 [API libraries]: https://github.com/cloudControl
-[the latest version]: http://download.cloudcontrolled.com/windows
+[the latest version]: https://download.cloudcontrolled.com/windows
 [Python 2.6+]: http://python.org/download/
 [reset your password]: https://api.cloudcontrol.com/reset_password/
 [quick Git tutorial]: http://rogerdudler.github.com/git-guide/
@@ -866,11 +866,10 @@ $ cctrlapp APP_NAME/DEP_NAME deploy --stack [luigi,pinky]
 [guides]: https://www.cloudcontrol.com/dev-center/guides
 [MongoLab Add-on]: https://www.cloudcontrol.com/add-ons/mongolab
 [Add-on marketplace]: https://www.cloudcontrol.com/add-ons
-[Deployment category]: https://www.cloudcontrol.com/dev-center/add-on-documentation/deployment
-[rsyslog]: http://www.rsyslog.com/
+[Deployment category]: https://www.cloudcontrol.com/dev-center/add-on-documentation#deployment
 [TLS]: http://en.wikipedia.org/wiki/Transport_Layer_Security
 [Alias Add-on]: https://www.cloudcontrol.com/add-ons/alias
-[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on-documentation/blitz.io
+[Blitz.io]: https://www.cloudcontrol.com/dev-center/add-on-documentation/blitz
 [MemCachier Add-on]: https://www.cloudcontrol.com/add-ons/memcachier
 [Varnish]: https://www.varnish-cache.org/
 [MemCachier Documentation]: https://www.cloudcontrol.com/dev-center/add-on-documentation/memcachier

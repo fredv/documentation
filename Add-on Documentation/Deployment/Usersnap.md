@@ -126,7 +126,7 @@ $USERSNAP_APIKEY = $creds['USERSNAP']['USERSNAP_APIKEY'];
 </html>
 ```
 You can learn more about getting addon credentials with PHP in the 
-[cloudControl Add-On-Credentials Doc](https://www.cloudcontrol.com/dev-center/guides/php/add-on-credentials).
+[cloudControl Add-On-Credentials Doc](https://www.cloudcontrol.com/dev-center/guides/php/add-on-credentials-4).
 
 ### Example for Python web sites (Example for mako templates)
 Include this snippet in your base template, right before the closing `</body>`
@@ -224,7 +224,7 @@ it in other templates by adding this line to your main template:
 
 
 You can learn more about getting addon credentials with Ruby in the 
-[cloudControl Add-On-Credentials Doc](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on-credentials).
+[cloudControl Add-On-Credentials Doc](https://www.cloudcontrol.com/dev-center/guides/ruby/add-on-credentials-2).
 
 ### Example for Java, NodeJS and all other web languages 
 Include this snippet in your base template, right before the closing `</body>` tag
