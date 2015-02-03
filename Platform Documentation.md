@@ -61,6 +61,42 @@ $ cctrluser delete
 
 You can [reset your password], in case you forgot it.
 
+## CLI Authentication
+At the moment our CLI allows users to authenticate to the platform with two methods.
+
+### SSH Public Key Authentication
+With this method you can authenticate to the platform in a more convenient way than using [email / password authentication](#email--password-authentication). After adding your SSH key to the platform, its location is remembered by the CLI and will be used in the future requests. Now you are able to authenticate to the platform with this key. At your first access you will be asked to choose the authentication method:
+~~~bash
+cctrlapp -l
+Now it is possible to login using your Public Key. Do you want to use it as default login method? Type "Yes" without the quotes to proceed: Yes
+...
+You can change your decision by manually editing the configuration file located at `HOME_DIR/.cloudControl/config.json`.
+~~~
+
+If for some reason you want to change to another SSH key you can edit the CLI config file `HOME_DIR/.cloudControl/config.json`:
+~~~json
+{"ssh_path": "HOME_DIR/.ssh/id_rsa.pub", "ssh_auth": true, "email": "user1@example.com"}
+~~~
+
+If you set a passphrase for your SSH key, which is strongly recommended, than you have to add the key to your ssh-agent by:
+~~~bash
+# start ssh-agent
+eval `ssh-agent`
+ssh-add /path/to/your/privatekey
+~~~
+
+### Email / Password Authentication
+The email / password authentication is an alternative to SSH public key authentication. To enable it, simply whenever prompted to use SSH public key authentication answer with "No" or edit CLI config `HOME_DIR/.cloudControl/config.json`.
+
+From now, whenever you want to authenticate to the platform you have to put your email and password.
+<br>
+Alternatively, to get this process less verbose, you can set the email and the password as shell environment variables:
+~~~bash
+export CCTRL_EMAIL=user1@example.com
+export CCTRL_PASSWORD=yourpassword
+~~~
+
+Disadvantage of this approach is the fact that your credentials are exposed to your environment, that is why we encourage using SSH public key authentication instead.
 
 ## Apps, Users and Deployments
 
