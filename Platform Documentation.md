@@ -40,6 +40,7 @@ $ sudo pip install -U cctrl
  * Every developer has their own user account
  * User accounts can be created via the *web console* or via ``cctrluser create``
  * User accounts can be deleted via the *web console* or via ``cctrluser delete``
+ * The CLI can be configured via ``cctrluser setup``
 
 To work on and manage your applications on the platform, a user account is needed. User accounts can be created via the *web console* or using the following CLI command:
 ~~~
@@ -57,6 +58,22 @@ If you want to delete your user account, please use either the *web console* or 
 $ cctrluser delete
 ~~~
 
+### Setup CLI
+With the `cctrluser setup` command you can create or modify your CLI configuration whenever you need to. We do not ask for configurations changes anymore, instead you will have explicit control over this by using the command.
+
+The command has three different flags to modify each of the existing values on the user configuration:
+
+- `--email` will set the email on your configuration. This email is used to login on the platform.
+
+- `--ssh-auth` will enable the ssh public key authentication if set to `yes` and disable it when `no` (it defaults to `yes`). See more for [ssh public key authentication](#ssh-public-key-authentication).
+
+- `--ssh-key-path` specifies the path of your ssh public key used for the authentication. If the flag is not set, it defaults to `HOME_DIR/.ssh/id_rsa.pub` (or its similar on Windows). The application will try to upload the public key to the platform.
+
+The whole command as example:
+~~~
+cctrluser setup --email user1@example.com --ssh-auth yes --ssh-key-path /path/to/your/publickey.pub
+~~~
+
 ### Password Reset
 
 You can [reset your password], in case you forgot it.
@@ -65,17 +82,10 @@ You can [reset your password], in case you forgot it.
 At the moment our CLI allows users to authenticate to the platform with two methods.
 
 ### SSH Public Key Authentication
-With this method you can authenticate to the platform in a more convenient way than using [email / password authentication](#email--password-authentication). After adding your SSH key to the platform, its location is remembered by the CLI and will be used in the future requests. Now you are able to authenticate to the platform with this key. At your first access you will be asked to choose the authentication method:
-~~~bash
-cctrlapp -l
-Now it is possible to login using your Public Key. Do you want to use it as default login method? Type "Yes" without the quotes to proceed: Yes
-...
-You can change your decision by manually editing the configuration file located at `HOME_DIR/.cloudControl/config.json`.
-~~~
+With this method you can authenticate to the platform in a more convenient way than using [email / password authentication](#email--password-authentication). After adding your SSH key to the platform, its location is remembered by the CLI and will be used in the future requests. Now you are able to authenticate to the platform with this key. You can add a public key to the platform and/or change the public key used for the authentication by [setup the CLI](#setup-cli).
 
-If for some reason you want to change to another SSH key you can edit the CLI config file `HOME_DIR/.cloudControl/config.json`:
-~~~json
-{"ssh_path": "HOME_DIR/.ssh/id_rsa.pub", "ssh_auth": true, "email": "user1@example.com"}
+~~~bash
+cctrluser setup --ssh-key-path /path/to/your/publickey.pub
 ~~~
 
 If you set a passphrase for your SSH key, which is strongly recommended, than you have to add the key to your ssh-agent by:
@@ -86,17 +96,19 @@ ssh-add /path/to/your/privatekey
 ~~~
 
 ### Email / Password Authentication
-The email / password authentication is an alternative to SSH public key authentication. To enable it, simply whenever prompted to use SSH public key authentication answer with "No" or edit CLI config `HOME_DIR/.cloudControl/config.json`.
+The email / password authentication is an alternative to SSH public key authentication. To enable it, simply [setup the CLI](#setup-cli), setting the `--ssh-auth` parameter to `no`.
+~~~
+cctrluser setup --ssh-auth no
+~~~
 
-From now, whenever you want to authenticate to the platform you have to put your email and password.
+From now, whenever you want to authenticate to the platform you have to put your password.
 <br>
-Alternatively, to get this process less verbose, you can set the email and the password as shell environment variables:
+Alternatively, to get this process less verbose, you can set the password as shell environment variable:
 ~~~bash
-export CCTRL_EMAIL=user1@example.com
 export CCTRL_PASSWORD=yourpassword
 ~~~
 
-Disadvantage of this approach is the fact that your credentials are exposed to your environment, that is why we encourage using SSH public key authentication instead.
+Disadvantage of this approach is the fact that your password is exposed to your environment, that is why we encourage using SSH public key authentication instead.
 
 ## Apps, Users and Deployments
 
