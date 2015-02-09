@@ -61,6 +61,8 @@ $ cctrluser delete
 ### Setup CLI
 With the `cctrluser setup` command you can create or modify your CLI configuration whenever you need to. We do not ask for configurations changes anymore, instead you will have explicit control over this by using the command.
 
+Usually you only need to run `cctrluser setup` to get this job done. In the first run you will be asked for your email. For all other options, the default values are taken. 
+
 The command has three different flags to modify each of the existing values on the user configuration:
 
 - `--email` will set the email on your configuration. This email is used to login on the platform.
